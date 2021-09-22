@@ -1,0 +1,21 @@
+{
+    "name": "dark-pro-plus",
+    "displayName": "DarkPro+",
+    "description": "Dark Pro+",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Pro+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Pro+-color-theme.json"
+            }
+        ]
+    }
+}
