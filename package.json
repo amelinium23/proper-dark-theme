@@ -1,7 +1,7 @@
 {
-    "name": "dark-pro-plus",
-    "displayName": "DarkPro+",
-    "description": "Dark Pro+",
+    "name": "proper-dark-theme",
+    "displayName": "ProperDarkTheme",
+    "description": "ProperDarkTheme",
     "version": "0.0.1",
     "publisher": "amelinium23",
     "engines": {
@@ -9,7 +9,7 @@
     },
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/amelinium23/proper-dark-theme.git"
 	},
     "categories": [
         "Themes"
