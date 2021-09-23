@@ -3,9 +3,14 @@
     "displayName": "DarkPro+",
     "description": "Dark Pro+",
     "version": "0.0.1",
+    "publisher": "amelinium23",
     "engines": {
         "vscode": "^1.60.0"
     },
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
     "categories": [
         "Themes"
     ],
