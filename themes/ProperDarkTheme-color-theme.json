@@ -448,5 +448,17 @@
         "fontStyle": "underline"
       }
     },
+    {
+      "scope": ["storage.type.java", "variable.other.object.java"],
+      "settings": {
+        "foreground": "#28b7ff"
+      }
+    },
+    {
+      "scope": "string.quoted.double",
+      "settings": {
+        "foreground": "#BBBBBB"
+      }
+    }
   ]
 }
