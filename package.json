@@ -17,9 +17,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark Pro+",
+                "label": "ProperDarkTheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Dark Pro+-color-theme.json"
+                "path": "./themes/ProperDarkTheme-color-theme.json"
             }
         ]
     }

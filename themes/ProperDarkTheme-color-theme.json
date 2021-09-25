@@ -177,13 +177,24 @@
 			"variable.object.property.js",
 			"meta.definition.property.js",
 			"meta.field.declaration.js",
-			"meta.class.js",
 			"source.js",
 		],
 		"settings": {
-			"foreground": "#f3e8e8",
+			"foreground": "#2cc0ff",
 		}
 	},
+  {
+    "scope": "support.function.js",
+    "settings": {
+      "foreground": "#79b8ff"
+    }
+  },
+  {
+    "scope": ["variable.other.property.js", "meta.jsx.children.js"],
+    "settings": {
+      "foreground": "#E1E1E2"
+    }
+  },
     {
       "scope": "support",
       "settings": {
@@ -211,21 +222,18 @@
     {
       "scope": "invalid.broken",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#fdaeb7"
       }
     },
     {
       "scope": "invalid.deprecated",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#fdaeb7"
       }
     },
     {
       "scope": "invalid.illegal",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#fdaeb7"
       }
     },
