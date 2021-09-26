@@ -1,5 +1,5 @@
 {
-	"name": "Dark Pro+",
+	"name": "Proper dark theme",
 	"type": "dark",
 	"colors": {
 		"editorIndentGuide.activeBackground": "#383838",
@@ -12,7 +12,7 @@
 		"badge.background": "#383838",
 		"badge.foreground": "#C1C1C1",
 		"button.background": "#333",
-		"editor.background": "#1f1f1f",
+		"editor.background": "#242424",
 		"editor.lineHighlightBorder": "#303030",
 		"editorGroupHeader.tabsBackground": "#1A1A1A",
 		"editorGroupHeader.tabsBorder": "#1A1A1A",
@@ -39,14 +39,15 @@
 		"pickerGroup.foreground": "#EAEAEA",
 		"progressBar.background": "#FAFAFA",
 		"scrollbar.shadow": "#1f1f1f",
-		"sideBar.background": "#1A1A1A",
+		"sideBar.background": "#242424",
+    "sideBar.border": "#313131",
 		"sideBarSectionHeader.background": "#202020",
 		"statusBar.background": "#2e2e2e",
-		"statusBar.debuggingBackground": "#4b4b4b",
+		"statusBar.debuggingBackground": "#1A1A1A",
 		"statusBar.foreground": "#d8d5d5",
 		"statusBar.noFolderBackground": "#1A1A1A",
-		"statusBarItem.remoteForeground": "#ffffffc9",
-		"statusBarItem.remoteBackground": "#4bdafa82",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"statusBarItem.remoteBackground": "#36d8fcce",
 		"statusBarItem.prominentBackground": "#fafafa1a",
 		"tab.activeBorder": "#1e1e1e",
 		"tab.activeBackground": "#353535",
@@ -55,11 +56,11 @@
 		"tab.inactiveBackground": "#1A1A1A",
 		"tab.inactiveForeground": "#727272",
 		"textLink.foreground": "#CCC",
-		"textLink.activeForeground": "#fafafa",
-		"titleBar.activeBackground": "#1A1A1A",
+		"textLink.activeForeground": "#2e2e2e",
+		"titleBar.activeBackground": "#2e2e2e",
 		"titleBar.border": "#00000000",
 		"terminal.ansiBrightBlack": "#5c5c5c",
-		"inputOption.activeBackground": "#3a3a3a",
+		"inputOption.activeBackground": "#2b2b2b",
 		"debugIcon.continueForeground": "#79b8ff",
 		"debugIcon.disconnectForeground": "#79b8ff",
 		"debugIcon.pauseForeground": "#FF7A84",
@@ -449,7 +450,8 @@
       }
     },
     {
-      "scope": ["storage.type.java", "variable.other.object.java"],
+      "scope": ["storage.type.java", 
+        "variable.other.object.java"],
       "settings": {
         "foreground": "#28b7ff"
       }
@@ -458,6 +460,43 @@
       "scope": "string.quoted.double",
       "settings": {
         "foreground": "#BBBBBB"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json.comments",
+      "settings": {
+        "foreground": "#70d0e6"
+      }
+    },
+    {
+      "scope": ["string.quoted.double.json", 
+        "string.quoted.double.ts"],
+      "settings": {
+        "foreground": "#fcfcfc"
+      }
+    },
+    {
+      "scope": "support.type.primitive.tsx",
+      "settings": {
+        "foreground": "#79b8ff"
+      }
+    },
+    {
+      "scope": "support.type.builtin.ts",
+      "settings": {
+        "foreground": "#90c4ff"
+      }
+    }, 
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#63b9f3"
+      }
+    },
+    {
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#43c0fa"
       }
     }
   ]
