@@ -33,7 +33,7 @@
     "list.invalidItemForeground": "#ffffff",
 		"panelTitle.activeBorder": "#1f1f1f",
 		"panelTitle.activeForeground": "#FAFAFA",
-		"panelTitle.inactiveForeground": "#3c3c3c",
+		"panelTitle.inactiveForeground": "#888888",
 		"peekView.border": "#444",
 		"peekViewEditor.background": "#242424",
 		"pickerGroup.border": "#363636",
@@ -44,7 +44,8 @@
     "sideBar.border": "#313131",
 		"sideBarSectionHeader.background": "#2b2b2b",
 		"statusBar.background": "#2e2e2e",
-		"statusBar.debuggingBackground": "#ff6565",
+		"statusBar.debuggingBackground": "#f56464",
+    "statusBar.debuggingForeground": "#ffffff",
 		"statusBar.foreground": "#d8d5d5",
 		"statusBar.noFolderBackground": "#1A1A1A",
 		"statusBarItem.remoteForeground": "#ffffff",
@@ -58,9 +59,10 @@
 		"tab.inactiveForeground": "#727272",
 		"textLink.foreground": "#CCC",
 		"textLink.activeForeground": "#ffffff",
-		"titleBar.activeBackground": "#2e2e2e",
-    "titleBar.inactiveBackground": "#2e2e2e",
+		"titleBar.activeBackground": "#1f1f1f",
+    "titleBar.inactiveBackground": "#1f1f1f",
     "titleBar.inactiveForeground": "#ffffff",
+    "titleBar.border": "#313131",
     "menu.background": "#2e2e2e",
     "menu.foreground": "#ffffff",
 		"terminal.ansiBrightBlack": "#5c5c5c",
@@ -91,8 +93,9 @@
 		"symbolIcon.variableForeground": "#79b8ff",
 		"symbolIcon.enumeratorMemberForeground": "#79b8ff",
 		"diffEditor.insertedTextBackground": "#3a632a4b",
-		"diffEditor.removedTextBackground": "#b3034752"
+		"diffEditor.removedTextBackground": "#b3034752",
 	},
+  "semanticHighlighting": true,
 	"tokenColors": [
     {
       "scope": [
