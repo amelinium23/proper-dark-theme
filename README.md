@@ -2,7 +2,7 @@
 <br />
 
 ### Description
-This theme is a proper dark theme. It's created due to not having proper dark theme on the extension store. It's created with inspiration on the Github Theme and Min Theme.
+This theme is a proper dark theme. It's created due to not having proper dark theme on the extension store.
 
 ### Screenshots
 <img alt="Proper Dark Theme JS" src="https://raw.githubusercontent.com/amelinium23/proper-dark-theme/master/img/JS.png">
