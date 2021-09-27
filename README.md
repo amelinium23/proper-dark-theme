@@ -1,4 +1,4 @@
-## Proper Dark Theme
+<h3 align="center">Proper Dark Theme</h2>
 This theme is a proper dark theme.
 
 ## Screenshot
