@@ -2,7 +2,7 @@
     "name": "proper-dark-theme",
     "displayName": "Proper Dark Theme",
     "description": "Proper Dark Theme",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "amelinium23",
     "engines": {
         "vscode": "^1.60.0"
