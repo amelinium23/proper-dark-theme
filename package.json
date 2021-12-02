@@ -2,24 +2,30 @@
     "name": "proper-dark-theme",
     "displayName": "Proper Dark Theme",
     "description": "Proper Dark Theme",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "publisher": "amelinium23",
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.56.0"
     },
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/amelinium23/proper-dark-theme.git"
 	},
     "categories": [
-        "Themes"
+        "Themes",
+        "Other"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "ProperDarkTheme",
+                "label": "Proper Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ProperDarkTheme-color-theme.json"
+            },
+            {
+                "label": "Proper Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/ProperLightTheme-color-theme.json"
             }
         ]
     }
