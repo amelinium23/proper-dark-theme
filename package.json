@@ -1,8 +1,8 @@
 {
     "name": "proper-dark-theme",
     "displayName": "Proper Dark Theme",
-    "description": "Proper Dark Theme",
-    "version": "0.0.10",
+    "description": "Nice dark theme for developers.",
+    "version": "0.0.11",
     "publisher": "amelinium23",
     "engines": {
         "vscode": "^1.56.0"
@@ -21,11 +21,6 @@
                 "label": "Proper Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ProperDarkTheme-color-theme.json"
-            },
-            {
-                "label": "Proper Light Theme",
-                "uiTheme": "vs",
-                "path": "./themes/ProperLightTheme-color-theme.json"
             }
         ]
     }
