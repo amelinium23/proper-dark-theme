@@ -126,7 +126,9 @@
       "scope": [
         "entity.name",
         "meta.export.default",
-        "meta.definition.variable"
+        "meta.definition.variable",
+        "variable.parameter.js",
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#ffa657"
