@@ -119,7 +119,7 @@
         "entity"
       ],
       "settings": {
-        "foreground": "#a0d3ff"
+        "foreground": "#7cb6f8"
       }
     },
     {
@@ -460,7 +460,7 @@
         "string.quoted.double.python",
       ],
       "settings": {
-        "foreground": "#94cfff"
+        "foreground": "#90cafa"
       }
     },
     {
@@ -477,7 +477,7 @@
     {
       "scope": "punctuation.definition.tag",
       "settings": {
-        "foreground": "#f2ebeb"
+        "foreground": "#ebf1f2"
       }
     },
     {
@@ -506,8 +506,6 @@
     },
     {
       "scope": [
-        "variable.other.readwrite.js.jsx", 
-        "variable.other.readwrite.ts.tsx",
         "meta.block.js.jsx",
         "meta.block.ts.tsx"
       ],
@@ -517,6 +515,44 @@
     },
     {
       "scope": "meta.embedded.expression",
+      "settings": {
+        "foreground": "#FFA657"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "variable.other",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#72b6ff",
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "source.python"
+      ],
+      "settings": {
+        "foreground": "#A5D6FF",
+      }
+    },
+    {
+      "scope": [
+        "support.type.python",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#d2a8ff",
+      }
+    },
+    {
+      "scope": [
+        "meta.function.parameters.python",
+        "punctuation.section.function.begin.python",
+        "punctuation.separator.annotation.result.python"
+      ],
       "settings": {
         "foreground": "#FFA657"
       }
