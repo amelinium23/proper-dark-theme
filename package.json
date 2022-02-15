@@ -2,7 +2,8 @@
     "name": "proper-dark-theme",
     "displayName": "Proper Dark Theme",
     "description": "Nice dark theme for developers.",
-    "version": "0.0.12",
+    "version": "0.0.13",
+    "icon": "img/logo.png",
     "publisher": "amelinium23",
     "engines": {
         "vscode": "^1.56.0"
