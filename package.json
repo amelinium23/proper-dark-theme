@@ -2,16 +2,16 @@
     "name": "proper-dark-theme",
     "displayName": "Proper Dark Theme",
     "description": "Nice dark theme for developers.",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "icon": "img/logo.png",
     "publisher": "amelinium23",
     "engines": {
         "vscode": "^1.56.0"
     },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/amelinium23/proper-dark-theme.git"
-	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amelinium23/proper-dark-theme.git"
+    },
     "categories": [
         "Themes",
         "Other"
@@ -21,7 +21,7 @@
             {
                 "label": "Proper Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ProperDarkTheme-color-theme.json"
+                "path": "./themes/dark/proper-dark-theme.json"
             }
         ]
     }
