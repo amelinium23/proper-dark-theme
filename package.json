@@ -1,28 +1,31 @@
 {
-    "name": "proper-dark-theme",
-    "displayName": "Proper Dark Theme",
-    "description": "Nice dark theme for developers.",
-    "version": "0.0.14",
-    "icon": "img/logo.png",
-    "publisher": "amelinium23",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/amelinium23/proper-dark-theme.git"
-    },
-    "categories": [
-        "Themes",
-        "Other"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Proper Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark/proper-dark-theme.json"
-            }
-        ]
-    }
+  "name": "proper-dark-theme",
+  "displayName": "Proper Dark Theme",
+  "description": "Nice dark theme for developers.",
+  "version": "0.1.0",
+  "icon": "img/logo.png",
+  "publisher": "amelinium23",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amelinium23/proper-dark-theme.git"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Proper Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/proper-dark-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
