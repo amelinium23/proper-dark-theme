@@ -1,8 +1,8 @@
 {
   "name": "proper-dark-theme",
   "displayName": "Proper Dark Theme",
-  "description": "Nice dark theme for developers.",
-  "version": "1.0.0",
+  "description": "A visually appealing and easy-on-the-eyes dark theme for developers, designed to reduce eye strain and improve code readability during long coding sessions.",
+  "version": "1.0.1",
   "icon": "img/logo.png",
   "publisher": "amelinium23",
   "engines": {
